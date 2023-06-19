@@ -1,48 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
+  <head lang="en">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <title>Résumé</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles.css">
+
   </head>
   <body>
     <main>
       <div class="resume">
         <div class="container">
           <div class="resume__block">
+            <!-- Contact info -->
             <h1 class="contact-info__header">Anna Motorina</h1>
-            <h3 class="contact-info__sub-header">JavaAcript developer</h3>
+            <h3 class="contact-info__sub-header">JavaScript developer</h3>
     
             <div class="contact_info_container fh">
-
-              <div class="contact-info__block">
+              <!-- Contact info first column -->
+              <div class="contact-info__block contact-info__block--center">
                 <a href="" rel="author" class="contact-info__item">
                   <div class="contact-info__item-icon-wrapper">
-                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z">
-                      </path>
-                    </svg>
+                    <i class="fa-solid fa-location-dot"></i>
                   </div>
-                  <span>Kropyvnytskyi, Ukraine</span>
+                  <span>Kropyvnytskyi</span>
+                </a>
+
+                <a href="https://t.me/arcasha" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-brands fa-telegram"></i>
+                  </div>
+                  <span>Telegramm</span>
                 </a>
               </div>
-            
+            <!-- Contact info avatar -->
               <div class="contact-info__block contact-info__block--center">
                 <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Avatar">
               </div>
-    
-              <div class="contact-info__block">
+              
+
+              <!-- Contact info second column -->
+              <div class="contact-info__block contact-info__block--center">
+
+                <a href="https://www.instagram.com/invites/contact/?i=1hzg6ui43fe72&utm_content=1eij5t6" rel="author" class="contact-info__item">
+                  <div class="contact-info__item-icon-wrapper">
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                  <span>Instagramm</span>
+                </a>
+                
+
                 <a href="https://www.linkedin.com/in/ann-motorina-832302276/" rel="author" class="contact-info__item">
                   <div class="contact-info__item-icon-wrapper">
-                    <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                      <path
-                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                      </path>
-                    </svg>
+                    <i class="fa-brands fa-linkedin"></i>
                   </div>
-                  <span>Ann Motorina</span>
+                  <span>Linkedin</span>
                 </a>
               </div>
 
@@ -50,6 +66,8 @@
           </div>
         </div>
 
+
+        <!-- Brief info -->
         <div class="container">
           <div class="resume__block">
             <div class="intro">
@@ -60,92 +78,111 @@
                   </path>
                 </svg>
               </div>
-              <p class="intro_text">Hello! Ihis is intro"
-
+              <p class="intro_text">Hello! I'm 23 years old developer, or someone who wants to be it. Started learning programming almost years ago and now can show results to world. Communicative, motivated, competetive, productive from time to time like all of us.
               </p>
             </div>
           </div>
         </div>
 
-
+        <!-- Hard skills -->
         <div class="container">
           <div class="resume__block">
             <div class="skills">
               <h3 class="skills__header">Skills</h3>
-              <p class="skills__text">Sleep, eat, more sleep, meow, mrrr, purr. </p>
+              <p class="skills__text">Javascript(ES6+), React, Node.js, MongoDB, HTML/CSS, Express. Also known as MERN stack.</p>
             </div>
           </div>
         </div>
-
-
 
 
         <div class="container">
           <div class="resume__block">
             <div class="main-info fh">
         
+              <!-- Pet projects -->
               <div class="experiences">
 
-                <h3 class="experiences__header">Experience</h3>
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability">For whole my life</span>
-                    <h3 class="experiences__company-header-name">BinaryStudio</h3>
+                <h3 class="experiences__header">Pet projects</h3>
+                <div class="experiences__study">
+                  <div class="experiences__study-header">
+                    <span class="experiences__study-header-durability">In progress</span>
                   </div>
               
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role">Binary Studio Cat</span>
-                    <h3 class="experiences__company-project-name">Hooman project</h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>Supported hoomans</li>
-                      <li>Slept all the time</li>
-                      <li>Lied on the keyboard</li>
-                      <li>Watched my hoomans working</li>
-                    </ul>
+                  <div class="experiences__study-project">
+                    
+                    <p class="experiences__study-project-name">Social Network</p>
+                    <p class="experiences__study-project-description">Pure React SPA project. Use 
+                     react-router-dom, Redux, CSS modules, even class components. A little bit outdated technologies, but added understanding of main concept and working with legacy(+-) 
+                     code.</p>
+
+                   <p class="experiences__study-project-name">Meadowlark travel</p>
+                   <p class="experiences__study-project-description">I started reading "Web Development with
+                     Node and Express" by Ethan Brown and step by step learning Backend technologies with it.</p>
+
+                  <p class="experiences__study-project-name">Other learning</p>
+                   <p class="experiences__study-project-description">There were many small tasks for 
+                    learning, started from ToDo list up to
+                     <a href="https://www.codewars.com/users/motorann" class="experiences__study-project-description-link">Codewars</a> 
+                     and <a href="https://www.frontendmentor.io/profile/motorann" class="experiences__study-project-description-link">Frontendmentor</a>. </p>
+
                   </div>
+                  
                 </div>
               </div>
 
-              
-        
-              <div class="additional-info fv">
+                <!-- Education -->
+              <div class="fv additional-info">
                 
                   <div class="additional-info__education">
                     <h3 class="additional-info__education-header">Education</h3>
                     <div class="additional-info__education-university">
-                      <span class="additional-info__education-university-durability">2021</span>
-                      <h3 class="additional-info__education-university-speciality">Cat track</h3>
-                      <p class="additional-info__education-university-name">Binary Studio Academy</p>
+                      <span class="additional-info__education-university-durability">2016-2021</span>
+                      <h3 class="additional-info__education-university-speciality">Physicist</h3>
+                      <p class="additional-info__education-university-name">Taras Shevchenko National University of Kyiv</p>
                     </div>
                   </div>
                 
                   <div class="additional-info__languages">
                     <h3 class="additional-info__languages-header">Languages</h3>
                     <p class="additional-info__languages-item">
-                      Meow dialect
+                      Ukrainian (native)
                     </p>
                     <p class="additional-info__languages-item">
-                      Ukrainian (understand)
+                      Russian (forgotten)
                     </p>
                     <p class="additional-info__languages-item">
-                      English (don't understand)
+                      English (B1)
                     </p>
                   </div>
                 
               </div>
 
-
-
-
             </div>
           </div>
         </div>
 
-
-
-
-
       </div>
     </main>
+
+    <!-- Script for pet projects/experience block -->
+    <script>
+
+      let name = document.getElementsByClassName("experiences__study-project-name");
+      let descriptions = document.getElementsByClassName("experiences__study-project-description");
+
+      for (let [key,value] of Object.entries(name)) {
+        value.addEventListener("click", () => {
+
+         if(value.classList.contains("active")) {
+          descriptions[key].style.maxHeight = null;
+          } else {
+           const scrollHeight = descriptions[key].scrollHeight;
+           descriptions[key].style.maxHeight = `${scrollHeight}px`;
+           }
+
+       value.classList.toggle("active");
+      })
+    }
+    </script>
   </body>
 </html>
